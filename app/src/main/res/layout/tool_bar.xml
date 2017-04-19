@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/tool_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+            android:theme="@style/AppTheme"
+            app:layout_collapseMode="pin"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:titleTextColor="@android:color/black">
+
+            <ImageView
+                android:id="@+id/header_logo_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@mipmap/ic_launcher"
+                android:visibility="gone" />
+
+
+            <com.ta.ui.mkloader.MKLoader
+                android:id="@+id/toolbar_loader"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="end"
+                android:layout_marginEnd="@dimen/dp16"
+                android:layout_marginRight="@dimen/dp16"
+                android:visibility="gone"
+                app:mk_color="@color/colorAccent"
+                app:mk_type="Worm" />
+
+
+            <TextView
+                android:id="@+id/tvMenuEdit"
+                style="@style/Widget.AppCompat.ActionButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:clickable="true"
+                android:text=""
+                android:textColor="@android:color/background_dark"
+                android:visibility="gone" />
+
+        </android.support.v7.widget.Toolbar>
+
+        <include layout="@layout/separator" />
+    </android.support.design.widget.AppBarLayout>
+
+</layout>

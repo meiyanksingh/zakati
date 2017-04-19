@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <path
+        android:name="svg6"
+        android:strokeColor="#333333"
+        android:strokeWidth="0.15"
+        android:pathData="M50 1 v29" />
+    <path
+        android:name="svg7"
+        android:strokeColor="#333333"
+        android:strokeWidth="0.33"
+        android:pathData="M50 30 h-40" />
+    <path
+        android:fillColor="#000"
+        android:strokeWidth="1"
+        android:pathData="M 50 29.2 C 50.2209138999 29.2 50.4 29.5581722001 50.4 30 C 50.4 30.4418277999 50.2209138999 30.8 50 30.8 C 49.7790861001 30.8 49.6 30.4418277999 49.6 30 C 49.6 29.5581722001 49.7790861001 29.2 50 29.2 Z" />
+    <path
+        android:name="svg8"
+        android:strokeColor="#333333"
+        android:strokeWidth="0.25"
+        android:pathData="M10 30 v30" />
+    <path
+        android:fillColor="#000"
+        android:strokeWidth="1"
+        android:pathData="M 10 29.2 C 10.2209138999 29.2 10.4 29.5581722001 10.4 30 C 10.4 30.4418277999 10.2209138999 30.8 10 30.8 C 9.77908610007 30.8 9.6 30.4418277999 9.6 30 C 9.6 29.5581722001 9.77908610007 29.2 10 29.2 Z" />
+    <path
+        android:name="svg12"
+        android:strokeColor="#333333"
+        android:strokeWidth="0.33"
+        android:pathData="M10 60 h65" />
+    <path
+        android:fillColor="#000"
+        android:strokeWidth="1"
+        android:pathData="M 10 59.2 C 10.2209138999 59.2 10.4 59.5581722001 10.4 60 C 10.4 60.4418277999 10.2209138999 60.8 10 60.8 C 9.77908610007 60.8 9.6 60.4418277999 9.6 60 C 9.6 59.5581722001 9.77908610007 59.2 10 59.2 Z" />
+    <path
+        android:name="svg13"
+        android:strokeColor="#333333"
+        android:strokeWidth="0.15"
+        android:pathData="M75 60 v40" />
+</vector>

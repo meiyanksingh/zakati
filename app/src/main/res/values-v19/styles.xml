@@ -1,0 +1,11 @@
+<resources>
+
+
+    <style name="AppTheme.Splash">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@drawable/splash_bg</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+
+</resources>
